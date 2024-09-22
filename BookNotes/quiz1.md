@@ -31,6 +31,8 @@
 8) The equation: "d(end-to-end) = N * (L / R)" gives the formula for end to end delay of sending one packet of length L over N links of transmission rate R. Generalize this formula for sending P packets back to back over the N links.
    - First packet takes (N * (L/R)) time but all others take only (L/R) time. So the formula would be: (N * (L/R)) + ((P - 1) * (L/R)) == ((N + P - 1) * (L/R))
 
+9) 
+
 
 
 
