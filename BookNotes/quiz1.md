@@ -18,4 +18,32 @@
    - access network - Refers to the part of a network that connects end users to the broader network.
 
 4) Order [DSL, cable, FTTH, satellite, dial-up] from fastest to slowest:
-   - hthththtt
+   - FTTH (Fiber optic), cable, DSL (phone lines), Satellite, Dial-up
+  
+5) Which of the following is true about an ethernet network:
+   - The physical media between the end system and the ethernet switch is guided. (Guided because often use physical cables to connect devices.)
+   - The physical media between the end system and the ethernet switch is twisted pair.
+
+6) The physical medium used by WiFi (Wireless LAN) is:
+   - **Terrestrial radio channels** - These signals operate in specific frequency bands  (2.4 GHz and 5 GHz) to transmit data wirelessly within a local area.
+
+7) COME BACK TO LATER
+8) The equation: "d(end-to-end) = N * (L / R)" gives the formula for end to end delay of sending one packet of length L over N links of transmission rate R. Generalize this formula for sending P packets back to back over the N links.
+   - First packet takes (N * (L/R)) time but all others take only (L/R) time. So the formula would be: (N * (L/R)) + ((P - 1) * (L/R)) == ((N + P - 1) * (L/R))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
