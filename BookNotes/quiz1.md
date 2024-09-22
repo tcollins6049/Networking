@@ -27,13 +27,27 @@
 6) The physical medium used by WiFi (Wireless LAN) is:
    - **Terrestrial radio channels** - These signals operate in specific frequency bands  (2.4 GHz and 5 GHz) to transmit data wirelessly within a local area.
 
-7) COME BACK TO LATER
-8) The equation: "d(end-to-end) = N * (L / R)" gives the formula for end to end delay of sending one packet of length L over N links of transmission rate R. Generalize this formula for sending P packets back to back over the N links.
+7) Matching definitions:
+   - **PoP (Point of Presence)** -- Group of routers where a customer ISP connects to a provider ISP.
+   - **message** -- The unit of information exchanged between two network applications.
+   - **Store-and-forward** -- Protocol in which an entire packet must be recieved by a switch before transmitting any of the bits in the packet.
+   - **Packets** -- What messages are broken into by a source end system.
+   - **FDM (Frequency Division Multiplexing)** -- Implementation of circuit switching in which the link is divided into seperate frequency bands.
+   - **TDM (Time Division Multiplexing)** -- Implementation of circuit switching in which the use of a link is allocated by time.
+   - **Forwarding table** -- Table used by a router to determine the outgoing link of a packet to be transmitted.
+   - **IP address** -- What is used to index into a forwarding table.
+   - **IXP (Internet Exchange Point)** -- Place where ISPs can peer with one another.
+   
+9) The equation: "d(end-to-end) = N * (L / R)" gives the formula for end to end delay of sending one packet of length L over N links of transmission rate R. Generalize this formula for sending P packets back to back over the N links.
    - First packet takes (N * (L/R)) time but all others take only (L/R) time. So the formula would be: (N * (L/R)) + ((P - 1) * (L/R)) == ((N + P - 1) * (L/R))
 
-9) Suppose users share a 3 Mbps link. Also suppose each user requires 150kbps when transmitting, but each user transmits only 10 percent of the time. When circuit switching is used, how many users can be supported?
+10) Suppose users share a 3 Mbps link. Also suppose each user requires 150kbps when transmitting, but each user transmits only 10 percent of the time. When circuit switching is used, how many users can be supported?
     - Number of users = (Total bandwidth / bandwidth per user)
     - (3 * 10^6 bits per/second) / (150 * 10^3 bits per/second) = 20
+
+11) Same as above, what is the probability that a given user is transmitting?
+    - A given user is only transmitting 10% of the time so the probability would be 10%.
+
 
 
 
